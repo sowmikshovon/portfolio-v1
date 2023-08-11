@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill }  from 'react-icons/bs';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub, AiFillFacebook } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
@@ -55,6 +56,7 @@ export default function Home() {
             <a href="https://www.twitter.com/sowmikshovon"><AiFillTwitterCircle /></a>
             <a href="https://www.linkedin.com/in/sowmikshovon"><AiFillLinkedin /></a>
             <a href="https://github.com/sowmikshovon"><AiFillGithub /></a>
+            <a href='mailto:sowmikshovon@gmail.com'><MdEmail /></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} layout='fill' objectFit='cover'/>
